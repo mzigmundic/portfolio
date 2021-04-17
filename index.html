@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Mladen</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__content container">
+                <a href="#home" class="header__logo">
+                    <img src="img/logo.png" alt="logo" />
+                </a>
+                <nav class="navigation">
+                    <div class="navigation__toggler toggle-item"></div>
+                    <ul class="navigation__items">
+                        <li class="navigation__item">
+                            <a href="#home" class="toggle-item">Home</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#about" class="toggle-item">About</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#projects" class="toggle-item">Projects</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#contact" class="toggle-item">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="home">
+                <a id="home" class="anchor"></a>
+                <div class="home__content container">
+                    <h1 class="home__heading-main">Mladen Žigmundić</h1>
+                    <h2 class="home__heading-sub">Web Developer, Physicist</h2>
+                </div>
+            </section>
+
+            <section class="about">
+                <a id="about" class="anchor"></a>
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>About Mladen <span>Žigmundić</span></h2>
+                    </div>
+                    <div class="about__content">
+                        <div class="about__image-box">
+                            <img src="img/profile.jpg" alt="profile-pic" />
+                        </div>
+                        <div class="about__text-box">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus nesciunt neque, minus
+                                facere dolorem. Doloremque delectus impedit animi maxime aliquid autem quas cumque eaque id! Iste sint
+                                ducimus doloremque.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam non, incidunt, voluptatibus voluptate
+                                voluptates culpa consectetur illo repellat impedit at eveniet totam. Cumque dignissimos sequi nesciunt
+                                quibusdam, voluptate in aspernatur doloribus quis deleniti a alias quo animi! Placeat, architecto expedita.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects">
+                <a id="projects" class="anchor"></a>
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>Projects</h2>
+                    </div>
+                    <ul class="projects__content">
+                        <li class="project project--grabsbee">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Grabsbee Shop</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Grabsbee Shop</h3>
+                                    <p>
+                                        Webshop made with PostCSS and vanilla JavaScript using module design pattern. It was assigned as a
+                                        final task at Frontend Crash Course at Inchoo.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="https://mzigmundic.github.io/grabsbee-shop" target="_blank" class="btn-light">
+                                <i class="fas fa-eye"></i> Live Preview
+                            </a>
+                            <a href="https://github.com/mzigmundic/grabsbee-shop" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--github-crawler">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>GitHub Crawler</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>GitHub Crawler</h3>
+                                    <p>React application for searching Github users. It uses Context API for managing state.</p>
+                                </div>
+                            </div>
+                            <a href="https://githubcrawler5829502.netlify.app" target="_blank" class="btn-light">
+                                <i class="fas fa-eye"></i> Live Preview
+                            </a>
+                            <a href="https://github.com/mzigmundic/github-crawler" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--calorie-tracker">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Calorie Tracker</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Calorie Tracker</h3>
+                                    <p>
+                                        Application for tracking calories made with vanilla JavaScript using module design pattern, styled
+                                        with Boostrap.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="https://mzigmundic.github.io/calorie-tracker-module-pattern" target="_blank" class="btn-light">
+                                <i class="fas fa-eye"></i> Live Preview
+                            </a>
+                            <a href="https://github.com/mzigmundic/calorie-tracker-module-pattern" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--balance-tracker">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Balance Tracker</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Balance Tracker</h3>
+                                    <p>
+                                        Application for tracking expenses and incomes made with vanilla JavaScript using module design
+                                        pattern, styled with Boostrap.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="https://mzigmundic.github.io/balance-tracker-module-pattern" target="_blank" class="btn-light">
+                                <i class="fas fa-eye"></i> Live Preview
+                            </a>
+                            <a href="https://github.com/mzigmundic/balance-tracker-module-pattern" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--password-maker">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Password Maker</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Password Maker</h3>
+                                    <p>Simple application for generating random passwords made with vanilla JavaScript.</p>
+                                </div>
+                            </div>
+                            <a href="https://mzigmundic.github.io/password-maker" target="_blank" class="btn-light">
+                                <i class="fas fa-eye"></i> Live Preview
+                            </a>
+                            <a href="https://github.com/mzigmundic/password-maker" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--flex-station">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Flex Station</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Flex Station</h3>
+                                    <p>
+                                        Website made with basic CSS (flexbox). Vanilla JavaScript has been used for google map, and JQuery
+                                        for smooth scrolling.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="https://mzigmundic.github.io/flex-station" target="_blank" class="btn-light">
+                                <i class="fas fa-eye"></i> Live Preview
+                            </a>
+                            <a href="https://github.com/mzigmundic/flex-station" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--chromatica-shop">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Chromatica Shop</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Chromatica Shop</h3>
+                                    <p>
+                                        Webshop made with procedural PHP. JQuery has been used for AJAX, and Bootsrap for styling (mostly).
+                                        Currently it is not running live so only image preview is available.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn-light" id="chromatica-gallery"><i class="fas fa-images"></i> Image Preview</a>
+                            <a href="https://github.com/mzigmundic/chromatica-pro-webshop" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="project project--guitar-shop">
+                            <div class="project__info">
+                                <div class="project__info-front">
+                                    <h3>Guitar Shop</h3>
+                                </div>
+                                <div class="project__info-back">
+                                    <h3>Guitar Shop</h3>
+                                    <p>
+                                        Webshop made with Java. This project was assigned as a final task at Algebra course for Java
+                                        programming. Bootstrap has been used for styling. Currently it is not running live so only image
+                                        preview is available.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn-light" id="guitar-gallery"><i class="fas fa-images"></i> Image Preview</a>
+                            <a href="https://github.com/mzigmundic/trgovina" target="_blank" class="btn-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact">
+                <a id="contact" class="anchor"></a>
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>Contact Info</h2>
+                    </div>
+                    <div class="contact__content">
+                        <div class="contact__cards">
+                            <div class="contact-card">
+                                <div class="contact-card__icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="contact-card__text">
+                                    <h3>Residence</h3>
+                                    <p>Rakitovica, Croatia</p>
+                                </div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-card__icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="contact-card__text">
+                                    <h3>Phone</h3>
+                                    <p>+385 99 818 xxxx</p>
+                                </div>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-card__icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="contact-card__text">
+                                    <h3>Email</h3>
+                                    <p>mladen.zigmundic@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__social">
+                            <a href="https://www.linkedin.com/in/mladen-%C5%BEigmundi%C4%87-5583921b9" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="https://github.com/mzigmundic" target="_blank">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                            <a href="https://www.facebook.com/mladen.zigmundic" target="_blank">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; <span id="foot-year"></span> Mladen Žigmundić. All rights reserved.</p>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
