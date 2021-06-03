@@ -264,6 +264,10 @@ img {
     -moz-perspective: 150rem;
 }
 
+.project--garage .project__info-front {
+    background-image: url(../img/projects/garage.png);
+}
+
 .project--grabsbee .project__info-front {
     background-image: url(../img/projects/grabsbee.png);
 }
@@ -278,10 +282,6 @@ img {
 
 .project--balance-tracker .project__info-front {
     background-image: url(../img/projects/balance-tracker.png);
-}
-
-.project--password-maker .project__info-front {
-    background-image: url(../img/projects/password-maker.png);
 }
 
 .project--flex-station .project__info-front {
@@ -741,6 +741,10 @@ img {
         transform: rotateY(0);
     }
 
+    .project--garage .project__info-back {
+        background-image: url(../img/projects/garage.png);
+    }
+
     .project--grabsbee .project__info-back {
         background-image: url(../img/projects/grabsbee.png);
     }
@@ -755,10 +759,6 @@ img {
 
     .project--balance-tracker .project__info-back {
         background-image: url(../img/projects/balance-tracker.png);
-    }
-
-    .project--password-maker .project__info-back {
-        background-image: url(../img/projects/password-maker.png);
     }
 
     .project--flex-station .project__info-back {
